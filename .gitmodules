@@ -1,0 +1,3 @@
+[submodule "platform_tools_apksig"]
+	path = platform_tools_apksig
+	url = https://android.googlesource.com/platform/tools/apksig
