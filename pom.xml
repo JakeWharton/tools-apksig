@@ -11,7 +11,7 @@
 
   <groupId>com.jakewharton.android.repackaged</groupId>
   <artifactId>tools-apksig</artifactId>
-  <version>0.3</version>
+  <version>0.4-SNAPSHOT</version>
 
   <name>platform/tools/apksig</name>
   <description>A standalone packaging of AOSP's platform/tools/apksig library.</description>
