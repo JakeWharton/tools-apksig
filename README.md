@@ -3,34 +3,20 @@ Android apksig Library
 
 A standalone packaging of AOSP's platform/tools/apksig library.
 
-Please star [issue 227935](http://b.android.com/227935) in support of Google releasing this project
-to jcenter along with their existing build tooling artifacts.
+**This is now DEPRECATED!**
 
-
-Download
---------
-
-Maven:
+The official apksig package is now available on JCenter: http://jcenter.bintray.com/com/android/tools/build/apksig/.
 
 ```xml
 <dependency>
-  <groupId>com.jakewharton.android.repackaged</android>
-  <artifactId>tools-apksig</artifactId>
-  <version>0.3</version>
+  <groupId>com.android.tools.build</android>
+  <artifactId>apksig</artifactId>
+  <version>(latest version)</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-compile 'com.jakewharton.android.repackaged:tools-apksig:0.3'
+compile 'com.android.tools.build:apksig:(latest version)'
 ```
-
-Snapshots of the development version are available in
-[Sonatype's snapshots repository](https://oss.sonatype.org/content/repositories/snapshots/).
-
-
-License
--------
-
-This project contains no code. See `platform_tooks_apksig/NOTICE` for its license.
